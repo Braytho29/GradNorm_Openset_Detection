@@ -14,9 +14,9 @@ Please contact [Brayth Tarlinton](braytarlinton@gmail.com) if you have any quest
 
 ## Installation
 *Developement environment (Recommended):*
-\n   Python 3.7,
-\n   Ubuntu 20.04,
-\n   GPU
+<br>   Python 3.7,
+<br>   Ubuntu 20.04,
+<br>   GPU
 
  
 ### Installing Requirements 
@@ -36,10 +36,10 @@ pip install -v -e .
 The results in the thesis used the Pascal VOC and COCO datasets.
 
 *Pascal VOC data can be downloaded from [here](http://host.robots.ox.ac.uk/pascal/VOC/).*
-\nThe VOC2007 training/validation data, VOC2007 annotated test data, and VOC2012 training/validation data should be downloaded.
+<br>The VOC2007 training/validation data, VOC2007 annotated test data, and VOC2012 training/validation data should be downloaded.
 
 *COCO data can be downloaded from [here](https://cocodataset.org/#download).*
-\nThe COCO 2017 train images, 2017 val images, and 2017 train/val annotations should be downloaded.
+<br>The COCO 2017 train images, 2017 val images, and 2017 train/val annotations should be downloaded.
 
 Move the datasets into `/datasets/data/` and verify it is in the following format:
 
