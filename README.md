@@ -4,7 +4,7 @@
 Exploring Gradient Based Methods for Identifying and Resolving Open-set
 Errors**
 
-*Brayth Tarlinton*
+*Brayth Tarlinton, Dimity Miller*
 
 If you use this repository, please cite. 
 
@@ -13,11 +13,11 @@ If you use this repository, please cite.
 Please contact [Brayth Tarlinton](braytarlinton@gmail.com) if you have any questions.
 
 ## Installation
-*Developement environment (Recommended):
-  Python 3.7
-  Ubuntu 20.04
-  GPU
-*
+*Developement environment (Recommended):*
+Python 3.7,
+Ubuntu 20.04,
+GPU
+
  
 ### Installing Requirements 
 It is recommended that you use and install the following requirements into a python virtual environment.
@@ -130,7 +130,6 @@ An example of training a retinanet model with the Pascal VOC Open-set dataset:
 ```bash
 cd mmdetection
 
-echo Training Faster RCNN on closed-set VOC
 python3 tools/train.py configs/pascal_voc/retinanet_r50_fpn_1x_voc0712OS.py --gpus 1 --work-dir {working_directory}
 
 ```
@@ -138,3 +137,5 @@ python3 tools/train.py configs/pascal_voc/retinanet_r50_fpn_1x_voc0712OS.py --gp
 
 ## Acknowledgement
 mmdetection folder is from [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) github repository (with some minor additions and changes). Please acknowledge mmdetection if you use this respository.
+The thesis is built upon the repository [openset_detection/](https://github.com/dimitymiller/openset_detection/) and results compare to the paper Uncertainty for Identifying Open-Set Errors in Visual Object Detection
+by Dimity Miller, Niko Suenderhauf, Michael Milford, Feras Dayoub
