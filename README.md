@@ -1,4 +1,4 @@
-# Identification of Open-Set errors in Object Detectors through GradNorm
+# Exploring Gradient-based Uncertainty for Identifying and Resolving Open-Set Errors
 
 **This repository contains training and evaluation code for the thesis:
 Exploring Gradient Based Methods for Identifying and Resolving Open-set
